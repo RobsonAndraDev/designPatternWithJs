@@ -9,9 +9,6 @@ module.exports = class MakeDirector {
     this.maker.buildMotorDescription();
     this.maker.buildModel();
     this.maker.buildMaker();
-  }
-
-  getCarro() {
     return this.maker.getCar();
   }
 };
