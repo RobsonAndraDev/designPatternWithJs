@@ -1,5 +1,5 @@
-const CarFactoryInterface = require( "./interfaces/carFactoryInterface" );
-const Palio = require( "./palio" );
+const CarFactoryInterface = require( "./carFactoryInterface" );
+const Palio = require( "../model/palio" );
 
 module.exports = class FiatFactory extends CarFactoryInterface {
   constructor() {
