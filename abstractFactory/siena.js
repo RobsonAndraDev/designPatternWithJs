@@ -8,4 +8,4 @@ module.exports = class Palio extends CarInterface {
   showInfo() {
     console.log( "I am a Siana" );
   }
-}
+};

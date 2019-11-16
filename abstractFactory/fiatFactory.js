@@ -14,4 +14,4 @@ module.exports = class FiatFactory extends CarFactoryInterface {
   sedanCar() {
     return new Siena();
   }
-}
+};

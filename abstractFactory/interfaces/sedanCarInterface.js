@@ -7,4 +7,4 @@ module.exports = class CarInterface {
       console.log( "I have airbags" );
     }
   }
-}
+};

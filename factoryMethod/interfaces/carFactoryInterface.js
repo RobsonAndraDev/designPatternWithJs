@@ -5,4 +5,4 @@ module.exports = class CarFactoryInterface {
       throw new Error( "The method createCar should be implemented" );
     }
   }
-}
+};

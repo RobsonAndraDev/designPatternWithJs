@@ -9,4 +9,4 @@ module.exports = class FiatFactory extends CarFactoryInterface {
   createCar() {
     return new Palio();
   }
-}
+};

@@ -5,4 +5,4 @@ module.exports = class CarInterface {
       throw new Error("The method showInfo should be implemented");
     }
   }
-}
+};

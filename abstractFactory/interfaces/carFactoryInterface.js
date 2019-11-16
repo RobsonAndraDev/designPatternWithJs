@@ -8,4 +8,4 @@ module.exports = class CarFactoryInterface {
       throw new Error( "The method sedanCar should be implemented" );
     }
   }
-}
+};
