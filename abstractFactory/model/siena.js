@@ -1,4 +1,4 @@
-const CarInterface = require( './interfaces/sedanCarInterface' );
+const CarInterface = require( './sedanCarInterface' );
 
 module.exports = class Palio extends CarInterface {
   constructor() {

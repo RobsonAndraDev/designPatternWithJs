@@ -1,6 +1,6 @@
-const CarFactoryInterface = require( "./interfaces/carFactoryInterface" );
-const Palio = require( "./palio" );
-const Siena = require( "./siena" );
+const CarFactoryInterface = require( "./carFactoryInterface" );
+const Palio = require( "../model/palio" );
+const Siena = require( "../model/siena" );
 
 module.exports = class FiatFactory extends CarFactoryInterface {
   constructor() {

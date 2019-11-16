@@ -1,5 +1,6 @@
-const FiatFactory = require( './fiatFactory' );
+const FiatFactory = require( './abstractFactory/fiatFactory' );
 const fiatFactory = new FiatFactory();
-const car = fiatFactory.sedanCar();
-
+let car = fiatFactory.sedanCar();
+car.showInfo();
+car = fiatFactory.popularCar();
 car.showInfo();
